@@ -61,7 +61,6 @@ input[type=date] {
 
 .row {
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
 }
 
@@ -75,6 +74,9 @@ input[type=date] {
 }
 
 .text-area {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
     margin-top: 1%;
     width: 80%;
     height: 60px;
@@ -85,4 +87,7 @@ input[type=date] {
     margin: 5% auto auto 30%;
     width: 100px;
     height: 30px;
+    background-color: rgb(141, 141, 146);
+    cursor: pointer;
+    border-radius: 5px;
 }
